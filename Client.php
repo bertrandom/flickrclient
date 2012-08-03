@@ -4,9 +4,9 @@
     
     class Client {
 
-    	const ACCESS_TOKEN_URL 		= 'http://www.flickr.com/services/oauth/access_token';
-    	const AUTHORIZE_URL 		= 'http://www.flickr.com/services/oauth/authorize';
-    	const REQUEST_TOKEN_URL		= 'http://www.flickr.com/services/oauth/request_token';
+        const ACCESS_TOKEN_URL      = 'http://www.flickr.com/services/oauth/access_token';
+        const AUTHORIZE_URL         = 'http://www.flickr.com/services/oauth/authorize';
+        const REQUEST_TOKEN_URL     = 'http://www.flickr.com/services/oauth/request_token';
         const METHOD_URL            = 'http://api.flickr.com/services/rest/';
 
     	private $consumer_key;
