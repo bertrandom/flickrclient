@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "ext-OAuth": "*",
+        "ext-OAuth": "*"
     },
     "autoload": {
         "psr-0": { "Bert\\Flickr": "" }
