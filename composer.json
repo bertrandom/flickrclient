@@ -1,0 +1,23 @@
+{
+    "name": "bertrandom/flickrclient",
+    "type": "library",
+    "description": "Simple OAuth Client for the Flickr API",
+    "keywords": ["flickr", "api", "simple", "oauth"],
+    "homepage": "http://bertrandom.github.com/flickrclient/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bertrand Fan",
+            "email": "bertrand@fan.net",
+            "homepage": "http://thatsaspicymeatball.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-OAuth": "*",
+    },
+    "autoload": {
+        "psr-0": { "Bert\\Flickr": "" }
+    },
+    "target-dir": "Bert/Flickr"
+}
