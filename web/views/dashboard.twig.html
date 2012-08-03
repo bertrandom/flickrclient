@@ -1,0 +1,18 @@
+{% extends "base.twig.html" %}
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="hero-unit">
+            <h2>
+                {% if user.person.buddyicon_url %}
+                    <img src="{{ user.person.buddyicon_url }}" />
+                {% endif %}
+                Hi {{ user.person.username._content }}! <a class="btn btn-primary" href="/logout">Logout</a>
+            </h2>
+        </div>
+  
+    </div>
+
+{% endblock %}

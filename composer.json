@@ -1,23 +1,14 @@
 {
-    "name": "bertrandom/flickrclient",
-    "type": "library",
-    "description": "Simple OAuth Client for the Flickr API",
-    "keywords": ["flickr", "api", "simple", "oauth"],
-    "homepage": "http://bertrandom.github.com/flickrclient/",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Bertrand Fan",
-            "email": "bertrand@fan.net",
-            "homepage": "http://thatsaspicymeatball.com/"
-        }
-    ],
+    "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/bertrandom/flickrclient"
+            }
+        ],
     "require": {
-        "php": ">=5.3.3",
-        "ext-OAuth": "*"
+        "silex/silex": "1.0.*",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "bertrandom/flickrclient": "dev-master"        
     },
-    "autoload": {
-        "psr-0": { "Bert\\Flickr": "" }
-    },
-    "target-dir": "Bert/Flickr"
+    "minimum-stability": "dev"
 }
